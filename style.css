@@ -18,6 +18,22 @@ a:hover {
     cursor: pointer;
 }
 
+p {
+    font-size: 17px;
+}
+/* Ajout code Laurent */
+.paragraphe-accueil {
+    width: auto;
+    margin: 0% 5%;
+}
+.citation {
+    font-size: 18px;
+}
+.italique {
+    font-style: italic;
+}
+/*---------------------*/
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -579,6 +595,7 @@ a[data-lightbox]:hover img {
 .lightbox-caption {
     padding: 20px;
     color: #FFF;
+    text-align: center;
     background: rgba(0, 0, 0, .5);
     position: absolute;
     left: 15px;
@@ -651,7 +668,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757/*!important*/;
 }
 
 .container {
@@ -674,10 +691,6 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
-}
-
-p {
-    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -705,14 +718,17 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 26px;
     line-height: 1.4em;
+    text-align: center;
+    font-weight: 700;
 }
 
 h3 {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
+    font-size: 20px;
+    color: #616161;
+    /*text-transform: uppercase;*/
+    font-weight: 500;
     color: #333333!important;
 }
 
@@ -1027,6 +1043,11 @@ h4 {
         height: 320px;
     }
 }
+/**Ajout code Laurent */
+.h2--black-background {
+    color: #fff;
+}
+/*--------*/
 
 @media (max-width: 400px) {
     .bloc {
